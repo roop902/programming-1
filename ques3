@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    double num1, num2, product;
+
+    // Ask for input
+    printf("Enter first number: ");
+    scanf("%lf", &num1);
+
+    printf("Enter second number: ");
+    scanf("%lf", &num2);
+
+    // Multiply
+    product = num1 * num2;
+
+    // Display result
+    printf("Product = %.2lf\n", product);
+
+    return 0;
+}
